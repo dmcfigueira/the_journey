@@ -12,9 +12,14 @@ In the end you can argue it was over-engineered (which is not false) - but I'll 
 # Usage
 Simply install [Go (version 1.2+)](https://go.dev/doc/install), clone the repository to a new folder and open a terminal at that location.
 To compile the program use:
+
 > go build
-This should generate an executable. To run the program (on Windows) use: 
+
+This should generate an executable*. To run the program (on Windows) use: 
+
 > .\the_journey.exe transactions.csv
+
+<sub>*note: prior to building the application some internal settings can be tweaked like PARALLELIZE or VERBOSE.</sub>
 
 # What does my solution do successfully
 - Reads the .csv file into memory
@@ -35,4 +40,4 @@ This should generate an executable. To run the program (on Windows) use:
 - About 30h of effort were put into this project.
 - Some parts of the code could probably be more efficient.
 - Some parts of the code could probably use some more testing.
-- All the code is documented - because that's how I like my code.
+- All the code is documented - because that's how I like to code.
